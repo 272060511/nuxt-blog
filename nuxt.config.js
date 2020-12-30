@@ -52,11 +52,7 @@ export default {
       })
     }
   },
-  router: {
-    base: 'nuxt-blog'
-  },
   generate: {
-    dir: 'docs',
-    subFolders: false
+    dir: 'docs'
   }
 }
