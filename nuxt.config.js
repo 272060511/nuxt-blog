@@ -1,5 +1,6 @@
 export default {
   // Global page headers (https://go.nuxtjs.dev/config-head)
+  target: 'static',
   head: {
     title: 'MyBlog-web',
     meta: [{
@@ -51,6 +52,9 @@ export default {
         }
       })
     }
+  },
+  router: {
+    base: 'nuxt-blog'
   },
   generate: {
     dir: 'docs'
