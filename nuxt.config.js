@@ -54,7 +54,7 @@ export default {
     }
   },
   router: {
-    base: 'nuxt-blog'
+    base: 'docs'
   },
   generate: {
     dir: 'docs'
