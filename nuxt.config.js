@@ -3,6 +3,7 @@ export default {
   static: {
     prefix: false
   },
+  target: 'static',
   head: {
     title: 'MyBlog-web',
     meta: [{
@@ -55,9 +56,9 @@ export default {
       })
     }
   },
-  router: {
-    base: ''
-  },
+  // router: {
+  //   base: '/'
+  // },
   generate: {
     dir: 'docs',
     subFolders: false
