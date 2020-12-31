@@ -54,7 +54,7 @@ export default {
     }
   },
   router: {
-    base: 'docs/'
+    base: ''
   },
   generate: {
     dir: 'docs',
