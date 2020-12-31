@@ -1,6 +1,5 @@
 <template>
   <div class="login-register-page">
-    <layout-header></layout-header>
     <div class="login-bg">
      <login-bg/>
     </div>

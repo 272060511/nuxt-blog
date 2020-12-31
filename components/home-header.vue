@@ -2,7 +2,7 @@
   <div class="home-header" :class="{navActive: isActive}">
     <div id="scene" class="home-background-img">
       <div class="layer" data-depth="0.4">
-        <img class="moveImg" :src="image" alt="" :width="imgWidth" :height="imgHeight"/>
+        <img class="moveImg" src="../static/image/header-bg.jpg" alt="" :width="imgWidth" :height="imgHeight"/>
       </div>
     </div>
     <div class="head">
@@ -44,7 +44,6 @@ export default {
   name: "HomeHeader",
   data() {
     return {
-      image: "/image/header-bg.jpg",
       bgImgStyle: "",
       isActive: false,
       personalSetting: {

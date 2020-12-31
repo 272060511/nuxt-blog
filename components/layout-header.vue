@@ -67,6 +67,7 @@ export default {
   width: 100vw;
   height: 50px;
   position: fixed;
+  z-index: 100;
   top: 0;
   left: 0;
   border-bottom: 1px solid #eeeeee;
