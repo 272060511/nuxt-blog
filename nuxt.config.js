@@ -1,6 +1,8 @@
 export default {
   // Global page headers (https://go.nuxtjs.dev/config-head)
-  target: 'static',
+  static: {
+    prefix: false
+  },
   head: {
     title: 'MyBlog-web',
     meta: [{
